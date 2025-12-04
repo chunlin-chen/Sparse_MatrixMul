@@ -1,17 +1,17 @@
-# Sparse_Matmul
+# Sparse_MatrixMul
 
 ### 1. Compile
 
-'''
+```bash
 make
-'''
+```
 
 ### 2. Number of threads
-Syntax: export OMP_NUM_THREADS= 
+Syntax: `export OMP_NUM_THREADS= ` 
 
 ### 3. Run Tests (Manual Arguments)
-Syntax: ./sparse_benchmark <Matrix Size N> <Sparsity S> <Seed>
+Syntax: `./sparse_benchmark <Matrix Size N> <Sparsity S> <Seed>`
 
-'''
+```bash
 ./sparse_benchmark 1024 0.9 42
-'''
+```
